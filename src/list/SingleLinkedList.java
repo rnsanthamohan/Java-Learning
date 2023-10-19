@@ -114,6 +114,22 @@ public class SingleLinkedList {
 
     }
 
+    public SingleNode getHead() {
+        return head;
+    }
+
+    public void setHead(SingleNode head) {
+        this.head = head;
+    }
+
+    public SingleNode getTail() {
+        return tail;
+    }
+
+    public void setTail(SingleNode tail) {
+        this.tail = tail;
+    }
+
     public static void main(String[] args) {
         SingleLinkedList sll = new SingleLinkedList(10);
         sll.traverse();
