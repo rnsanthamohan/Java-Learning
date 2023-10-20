@@ -72,10 +72,10 @@ public class Stack {
         stack.push(123);
         stack.list.traverse();
         System.out.println(stack.isFull());
-        System.out.println(stack.pop());
-        System.out.println(stack.pop());
-        System.out.println(stack.pop());
-        System.out.println(stack.pop());
+        stack.pop();
+        stack.pop();
+        stack.pop();
+        stack.pop();
         stack.pop();
     }
 }
