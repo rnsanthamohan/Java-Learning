@@ -1,8 +1,8 @@
 package main.test.annotations;
 
-import annotations.JsonSerializationException;
-import annotations.ObjectToJsonConverter;
-import annotations.User;
+import com.core.annotations.JsonSerializationException;
+import com.core.annotations.ObjectToJsonConverter;
+import com.core.annotations.User;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

@@ -1,4 +1,4 @@
-package annotations;
+package com.core.annotations;
 
 public class JsonSerializationException extends RuntimeException {
     public JsonSerializationException(String s) {

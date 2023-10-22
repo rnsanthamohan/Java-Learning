@@ -1,4 +1,4 @@
-package model;
+package com.dsa.model;
 
 public class SingleNode {
     public Integer data;

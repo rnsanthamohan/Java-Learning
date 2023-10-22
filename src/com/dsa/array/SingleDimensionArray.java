@@ -1,4 +1,4 @@
-package array;
+package com.dsa.array;
 
 public class SingleDimensionArray {
     private int[] arr = null;

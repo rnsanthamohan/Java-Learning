@@ -1,4 +1,4 @@
-package model;
+package com.dsa.model;
 
 public class DoubleNode {
     private DoubleNode previous;

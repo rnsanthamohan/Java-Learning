@@ -1,4 +1,4 @@
-package annotations;
+package com.core.annotations;
 
 @JSonSerializable
 public class User {

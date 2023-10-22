@@ -1,8 +1,6 @@
 package com.dsa.stack.logicalds;
 
-import list.SingleLinkedList;
-
-import java.util.LinkedList;
+import com.dsa.list.SingleLinkedList;
 
 public class LinkedQueue {
 

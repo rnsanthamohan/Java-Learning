@@ -1,6 +1,6 @@
-package list;
+package com.dsa.list;
 
-import model.SingleNode;
+import com.dsa.model.SingleNode;
 
 public class CircularSingleLinkedList {
 

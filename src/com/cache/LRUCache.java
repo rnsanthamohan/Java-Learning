@@ -1,4 +1,4 @@
-package com.algorithms;
+package com.cache;
 
 import java.util.*;
 

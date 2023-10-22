@@ -1,4 +1,4 @@
-package basics.patterns;
+package com.patterns;
 
 import java.io.Serializable;
 

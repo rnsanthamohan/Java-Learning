@@ -1,4 +1,4 @@
-package basics;
+package com.core.basics;
 
 public class TestInstanceOf {
 

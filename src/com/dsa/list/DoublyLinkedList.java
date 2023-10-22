@@ -1,6 +1,6 @@
-package list;
+package com.dsa.list;
 
-import model.DoubleNode;
+import com.dsa.model.DoubleNode;
 
 public class DoublyLinkedList {
     private DoubleNode head;

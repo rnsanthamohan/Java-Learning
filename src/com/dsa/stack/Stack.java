@@ -1,7 +1,6 @@
 package com.dsa.stack;
 
-import list.SingleLinkedList;
-import model.SingleNode;
+import com.dsa.list.SingleLinkedList;
 
 public class Stack {
     private int size;
