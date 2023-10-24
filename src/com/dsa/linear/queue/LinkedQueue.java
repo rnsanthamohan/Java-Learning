@@ -1,6 +1,6 @@
-package com.dsa.stack.logicalds;
+package com.dsa.linear.queue;
 
-import com.dsa.list.SingleLinkedList;
+import com.dsa.linear.list.SingleLinkedList;
 
 public class LinkedQueue {
 

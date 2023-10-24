@@ -1,6 +1,6 @@
-package com.dsa.stack;
+package com.dsa.linear.stack;
 
-import com.dsa.list.SingleLinkedList;
+import com.dsa.linear.list.SingleLinkedList;
 
 public class Stack {
     private int size;

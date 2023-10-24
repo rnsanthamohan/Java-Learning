@@ -1,4 +1,4 @@
-package com.dsa.stack.logicalds;
+package com.dsa.linear.queue;
 
 /**
  * Implementation of a linear queue using Array.

@@ -1,4 +1,4 @@
-package com.dsa.list;
+package com.dsa.linear.list;
 
 import com.dsa.model.DoubleNode;
 

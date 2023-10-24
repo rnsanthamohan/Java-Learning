@@ -1,6 +1,4 @@
-package com.dsa.stack.logicalds;
-
-import java.sql.SQLOutput;
+package com.dsa.linear.queue;
 
 /**
  * Implementation of a circular queue using array.
