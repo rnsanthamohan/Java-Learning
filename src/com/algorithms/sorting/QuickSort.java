@@ -4,21 +4,22 @@ import java.util.Arrays;
 
 public class QuickSort {
 
-    public static int[] quickSort(int[] array, int start, int end) {
-        if (start < end) {
-            int pivot = partition(array, start, end);
-            quickSort(array, start, pivot-1);
-            quickSort(array, pivot+1, end);
+    public static int[] quickSort(int[] array, int left, int right) {
+        if (left < right) {
+            int pivot = partition(array, left, right);
+            quickSort(array, left, pivot-1);
+            quickSort(array, pivot+1, right);
         }
         return array;
     }
 
-    private static int partition(int[] array, int start, int end) {
-        int pivot = end;
-        int i = start - 1;
-        for (int j = start; j <= end; j++) {
+    private static int partition(int[] array, int left, int right) {
+        int pivot = right;
+        int i = left - 1;
+        for (int j = left; j <= right; j++) {
             if (array[j] <= array[pivot]) {
                 i++;
+                //swap
                 int temp = array[i];
                 array[i] = array[j];
                 array[j] = temp;
@@ -27,9 +28,9 @@ public class QuickSort {
         return i;
     }
 
-    public static void printArray(int[] arr) {
-        for (int i : arr) {
-            System.out.print(i + " ");
+    public static void printArray(int[] array) {
+        for (int n : array) {
+            System.out.print(n + " ");
         }
     }
 

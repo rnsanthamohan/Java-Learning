@@ -26,8 +26,8 @@ public class TwoSum {
     }
 
     public static void main(String[] args) {
-        int[] nums = {3, 2, 5, 8,7,6,1,5};
-        int target = 9;
+        int[] nums = {3, 2, 5, 3,5,6,1,7};
+        int target = 10;
         int[] result = twoSum(nums, target);
 
         if (result.length == 2) {

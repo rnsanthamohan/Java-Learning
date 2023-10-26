@@ -28,7 +28,8 @@ public class SelectionSort {
     }
 
     public static void main(String[] args) {
-        int[] arr = new int[] {30, 10, 50, 20, 60, 40, 5, 55, 15, 65, 2};
+        //int[] arr = new int[] {30, 10, 50, 20, 60, 40, 5, 55, 15, 65, 2};
+        int[] arr = new int[] {7, 5, 4, 2};
         SelectionSort selSort = new SelectionSort();
         int[] result = selSort.selectionSort(arr);
         for (int item : result) {

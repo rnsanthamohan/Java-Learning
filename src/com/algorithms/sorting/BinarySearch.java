@@ -37,8 +37,8 @@ public class BinarySearch {
         int left = 0;
         int right = array.length - 1;
 
-        while (left <= right) {
-            int mid = left + (right - left) / 2;
+        while (left < right) {
+            int mid = (left + right) / 2;
 
             if (array[mid] == target) {
                 //if the target matches the mid value, then return the mid index
@@ -48,7 +48,7 @@ public class BinarySearch {
                 left = mid + 1;
             } else {
                 //if the target value is lesser than mid, then search left of the array
-                right = mid -1;
+                right = mid - 1;
             }
         }
         return -1;
