@@ -15,9 +15,12 @@ public class FibonnaciSeriesUsingDC {
     }
 
     public static void main(String[] args) {
+        long start = System.nanoTime();
         int n = 10;
         for (int i = 1; i <= n; i++) {
             System.out.print(fibonnaciSeries(i) + " ");
         }
+        long end = System.nanoTime();
+        System.out.println("Time taken : " + (end - start));
     }
 }
