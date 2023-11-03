@@ -9,10 +9,17 @@ public class GraphNode {
 
     private boolean isVisited;
 
+    private int nodeIndex;
+
     private List<GraphNode> neighbors = new ArrayList<>();
 
     public GraphNode(String value) {
         this.data = value;
+    }
+
+    public GraphNode(String value, int nodeIndex) {
+        this.data = value;
+        this.nodeIndex = nodeIndex;
     }
 
     public String getData() {
@@ -37,5 +44,13 @@ public class GraphNode {
 
     public void setVisited(boolean visited) {
         isVisited = visited;
+    }
+
+    public int getNodeIndex() {
+        return nodeIndex;
+    }
+
+    public void setNodeIndex(int nodeIndex) {
+        this.nodeIndex = nodeIndex;
     }
 }

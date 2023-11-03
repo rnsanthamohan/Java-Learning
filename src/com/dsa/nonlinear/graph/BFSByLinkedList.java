@@ -45,19 +45,16 @@ public class BFSByLinkedList {
     }
 
     public static void main(String[] args) {
-//Initialize a Arraylist for storing all the graph nodes
+        //Initialize a Arraylist for storing all the graph nodes
         List<GraphNode> nodeList = new ArrayList<>();
-
 
         //create 10 nodes: v1-v10
         for(int i=1;i<11; i++) {
             nodeList.add(new GraphNode("V"+i));
         }
 
-
         //Constructor
         BFSByLinkedList graph = new BFSByLinkedList(nodeList);
-
 
         //add edges
         graph.addUndirectedEdge(1,2);
@@ -72,7 +69,6 @@ public class BFSByLinkedList {
         graph.addUndirectedEdge(7,8);
         graph.addUndirectedEdge(8,9);
         graph.addUndirectedEdge(9,10);
-
 
         //bfs from v1
         System.out.println("Printing BFS from source: V1");
